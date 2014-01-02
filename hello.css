@@ -12,7 +12,7 @@ body {
 	background-image:url('pics/sun-tree.jpg');
 	background-attachment: fixed;
 	z-index: -999;
-} 
+}
 
 h1 {
 	font-size: 60px;
@@ -99,7 +99,6 @@ img.nate {
 	-moz-border-radius: 50px;
 	border-radius: 50px;
 	transition: all 0.5s ease-in-out;
-	
 }
 
 #facebook {
@@ -125,6 +124,8 @@ img.nate {
 .button:hover {
 	cursor: pointer;
 	left: 2%;
+        -webkit-animation:bounce 5s infinite;
+        animation:bounce 5s infinite;
 }
 
 
