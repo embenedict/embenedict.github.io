@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Me</title>
+    <link rel="stylesheet" href="resources/layout.css" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      function replaceName() {
+      var myNewName = window.prompt('Pick a new name!');
+      document.getElementById('user-name').innerHTML = myNewName;
+      }
+
+      document.onclick = replaceName;
+
+      $(document).ready(function() {
+        $("#copyright").click(function(){
+          $(this).css('color', 'purple');
+        });
+});
+</script>
+  </head>
+  <body>
+
+    <div id="header" class="content">
+      <h1>About Me</h1>
+      <p>
+        My name is <span id="user-name">Betsy</span> and I'm doing cool stuff.
+      </p>
+    </div>
+    <div class="content clearfix">
+      <!-- Page Navigation -->
+      <div id="nav">
+        <img class="happy-person" src="happy-person.jpg">
+        <h2>Contents</h2>
+
+        <ul>          
+          <li> <a href="#my-projects"> Projects </a> </li>
+          <li> <a href="#my-hobbies"> Hobbies </a> </li>
+          <li> <a href="#myfun-facts"> Fun Facts </a> </li>
+        </ul>
+      </div>
+      
+      <!-- Main content area -->
+      <div id="main">
+        <h2 id="my-projects">Projects</h2>
+        <p>My portfolio is empty, but so far, I've made a webpage about...
+          <ul> 
+            <li> fake cupcakes </li>
+            <li> myself </li>
+          </ul>
+        </p>
+        
+        <h3>Project #1 Title</h3>
+        <p>Smells Like Bakin' Cupcake Company</p>
+        <p>...it's a fake cupcake company, helping me to learn html and css.</p>
+          
+        <h3>Project #2 Title</h3>
+        <p>RubyBridge page</p>
+        <p>...a page about myself, again helping me learn html and css. </p>
+
+        <h2 id="my-hobbies">Hobbies</h2>
+        
+        <p>I have a few activities that I love.</p>
+        <p>Here's a chart to my interests (and non-interests!): </p>
+          <table>
+            <table border="1">
+              <tr>
+                <th>Likes </th>
+                <th> Dislikes </th>
+              </tr>
+              <tr>
+                <td>freebies </td>
+                <td>expensive rent </td>
+              </tr>
+              <tr>
+                <td>subtle fashion </td>
+                <td>flashy hats </td>
+              </tr>
+            </table>
+        
+        <h3>Grammar</h3>
+        <p>Grammar is important.  Typos are for suckers.</p>
+        <ul>
+          <li>Grammar vs. Grandma (totally different)</li>
+          <li>.css vs. .ccs (not cool)</li>
+          <li>he ate vs. hate (unfortunate slip)</li>
+        </ul>
+
+        <h3>Surfing</h3>
+        <p>I would love to learn how to surf. Here's my gameplan:</p>
+        <ol>
+          <li>Find a beach</li>
+          <li>Learn a few tricks</li>
+          <li>Be a pro</li>
+        </ol>
+        
+        <h2 id="myfun-facts"> Fun Facts </h2>
+        <h3>Sam I Am</h3>
+        <p>I do not like green eggs and ham.  I do not like them, sam-I-am.</p>
+        <ul>
+          <li>Green Eggs</li>
+          <li>Ham</li>
+          <li>I do not like them, and you won't, either</li>
+        </ul>
+        
+
+      </div>
+    </div>
+    
+    <div id="copyright" class="content">
+      &copy; 2012 [Betsy Benedict], All Rights Reserved.
+    </div>
+  </body>
+</html>

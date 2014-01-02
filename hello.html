@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+	<title> 
+		Try me on for size!
+	</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href="jquery.bxslider.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="hello.css" rel="stylesheet" type="text/css" media="screen">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="jquery.bxslider.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#click-me').click(function() {
+				bayView = $('.BayView');
+	    		if(bayView.is(':visible')) {
+	    			$(this).html("Show Melissa");
+	    			bayView.slideUp();
+	    		} else {
+	    			$(this).html("Hide Melissa");
+	    			bayView.slideDown();
+	    		}
+			});
+			$('#click-unhide').click(function() {
+				nate = $('.nate');
+				if(nate.is(':visible')) {
+					$(this).html("Show Nate");
+					nate.slideUp();
+				} else {
+					$(this).html("Hide Nate");
+					nate.slideDown();
+				}
+			});
+		});
+
+		$(document).ready(function(){
+			  $('.bxslider').bxSlider({
+			    minSlides: 2,
+			    maxSlides: 2,
+			    slideWidth: 438,
+			    slideMargin: 20
+			});
+		});
+
+
+
+	</script>
+
+
+</head>
+
+<body>
+
+	<div id="main_container">
+		
+
+		<div align="center">
+			<h1>a place for happy.</h1>
+		</div>
+
+		<span id="click-me">Hide Melissa</span>
+		<span id="click-unhide">Hide Nate</span>
+
+			<img class="BayView" src="pics/happy-person.jpg">
+			<img class="nate" src="pics/nate.jpg">
+
+		<br> </br>
+
+		<span id="MiniPics">Mini Pics</span>
+		<ul class="bxslider">
+				<li> <img class="mini-pics" id="Betsy" src="pics/betsy.jpg"> </li>
+				<li> <img class="mini-pics" id="BetsyAndJordan" src="pics/BetsyAndJordan.jpg"> </li>
+				<li> <img class="mini-pics" id="Abbs" src="pics/Abbs.jpg"> </li>
+		</ul>
+
+		<p>Hi.  I'm Betsy.</p>
+		<p>So much to learn... <em>and so much time</em>. </p>
+
+		<div class="list"> Non-new things that are nonetheless lovely:&nbsp;
+			<ul>
+				<li class="list-item">Diamonds </li>
+				<li class="list-item">San Fran </li>
+				<li>Java </li>
+			</ul>
+		</div>
+
+		<br>
+
+			<i class="button fa fa-facebook-square" id="facebook"></i>
+			<i class="button fa fa-camera-retro" id="camera"></i>
+			<i class="button fa fa-twitter" id="twitter"></i>
+			<i class="button fa fa-coffee" id="fun"></i>
+
+		<h1>Table Time</h1>
+		<table align="center" border="1" cellpadding="4" cellspacing="0">
+			<tbody> </tbody> <!-- tr= table row/ th= table head -->
+			<div class="bold">
+				<tr> 
+					<th> Present Tense </th>
+					<th> Future Tense </th>
+					<th> Past Tense </th>
+				</tr>
+			</div>
+				<tr> 
+					<th> Eat </th>
+					<th> To Eat </th>
+					<th> Ate </th>
+				</tr>
+				<tr> 
+					<th> Run </th>
+					<th> To Run </th>
+					<th> Ran </th>
+				</tr>
+				<tr> 
+					<th> Show </th>
+					<th> To Show </th>
+					<th> Showed </th>
+				</tr>
+		</table>
+
+		<!-- working on this... trying to create a checkbox-->
+		<input checkbox> Are you on twitter? </input>
+		<div>
+			<a href="https://twitter.com/"> Twitter! </a>
+		</div>
+
+	</div>
+</body>
+</html>
