@@ -9,12 +9,14 @@ p {
 body {
 	font-family: 'Amatic SC', sans-serif;
 	font-size: 45px;
-	background-image:url('light-wooden-background.jpg');
+	background-image:url('pics/sun-tree.jpg');
 	background-attachment: fixed;
 	z-index: -999;
 } 
+
 h1 {
 	font-size: 60px;
+	color: #FF9999;
 }
 
 th:hover, th:focus, th:active {  
@@ -41,7 +43,7 @@ img.nate {
 #click-me {
 	font-size: 25px;
 	background-color: black;
-	color: #F0F990;
+	color: white;
 	padding: 10px;
 	margin: 10px;
 	cursor: pointer;
@@ -53,7 +55,7 @@ img.nate {
 
 #click-unhide {
 	background-color: black;
-	color: #F0F990;
+	color: white;
 	padding: 10px;
 	margin: 10px;
 	cursor: pointer;
@@ -86,42 +88,43 @@ img.nate {
 /* ----------------------------- FONT_AWESOME ICONS ------------------------------------ */
 
 
-i.button {
+.button {
 	width: 2%;
 	height: 7%;
 	position: fixed;
-	left: 2%;
+	left: 3%;
+	color: #FF9999;
+	text-decoration: none;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
-	transition: all 2s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	
 }
 
 #facebook {
 	z-index: 1;
-	top: 17%;
+	top: 30%;
 }
 
 #camera {
 	z-index: 2;
-	top: 37%;
+	top: 40%;
 }
 
 #twitter {
 	z-index: 3;
-	top: 57%;
+	top: 50%;
 }
 
 #fun {
 	z-index: 4;
-	top: 77%;
+	top: 60%;
 }
 
-img.smiley:hover {
+.button:hover {
 	cursor: pointer;
-	top: 0%;
 	left: 2%;
-	/*
-	box-shadow: 0 5% 0 rgba(255, 255, 255, 0.5);
-	*/
 }
+
+
