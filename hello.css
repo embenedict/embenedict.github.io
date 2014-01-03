@@ -4,7 +4,8 @@
 
 
 p {
-	font-size: 20px;
+	font-size: 25px;
+	color: #FF9999;
 }
 body {
 	font-family: 'Amatic SC', sans-serif;
@@ -17,6 +18,21 @@ body {
 h1 {
 	font-size: 60px;
 	color: #FF9999;
+}
+
+h2 {
+	font-size: 50px;
+	color: #9CCF99;
+}
+
+.happy-definition {
+	border: 1px solid #FF9999;
+	padding:5%;
+}
+
+.paragraph-about {
+	font-size: 40px;
+	color: #9CCF99;
 }
 
 th:hover, th:focus, th:active {  
@@ -43,7 +59,7 @@ img.nate {
 #click-me {
 	font-size: 25px;
 	background-color: black;
-	color: white;
+	color: #9CCF99;
 	padding: 10px;
 	margin: 10px;
 	cursor: pointer;
@@ -55,7 +71,7 @@ img.nate {
 
 #click-unhide {
 	background-color: black;
-	color: white;
+	color: #9CCF99;
 	padding: 10px;
 	margin: 10px;
 	cursor: pointer;
@@ -95,15 +111,12 @@ img.nate {
 	left: 3%;
 	color: #FF9999;
 	text-decoration: none;
-	-webkit-border-radius: 50px;
-	-moz-border-radius: 50px;
-	border-radius: 50px;
 	transition: all 0.5s ease-in-out;
 }
 
 #facebook {
 	z-index: 1;
-	top: 30%;
+	top: 29%;
 }
 
 #camera {
@@ -123,9 +136,8 @@ img.nate {
 
 .button:hover {
 	cursor: pointer;
-	left: 2%;
-        -webkit-animation:bounce 5s infinite;
-        animation:bounce 5s infinite;
+        -webkit-animation:bounce 1s;
+        animation:bounce 1s;
 }
 
 
