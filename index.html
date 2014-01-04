@@ -18,23 +18,23 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#click-me').click(function() {
-				bayView = $('.BayView');
-	    		if(bayView.is(':visible')) {
-	    			$(this).html("Show Melissa");
-	    			bayView.slideUp();
+				nate = $('.Nate');
+	    		if(nate.is(':visible')) {
+	    			$(this).html("Show Nate");
+	    			nate.slideUp();
 	    		} else {
-	    			$(this).html("Hide Melissa");
-	    			bayView.slideDown();
+	    			$(this).html("Hide Nate");
+	    			nate.slideDown();
 	    		}
 			});
 			$('#click-unhide').click(function() {
-				nate = $('.nate');
-				if(nate.is(':visible')) {
-					$(this).html("Show Nate");
-					nate.slideUp();
+				courtney = $('.courtney-and-betsy');
+				if(courtney.is(':visible')) {
+					$(this).html("Show Courtney and Betsy");
+					courtney.slideUp();
 				} else {
-					$(this).html("Hide Nate");
-					nate.slideDown();
+					$(this).html("Hide Courtney and Betsy");
+					courtney.slideDown();
 				}
 			});
 		});
@@ -66,47 +66,78 @@
 		<br> <em><small>(adjective)</small></em>
 		<br> feeling or showing pleasure or contentment : 
 		<br><em>Melissa came in looking happy and excited</em> | <em>they are happy to see me doing well.</em> </code></p>
-	<br>
-			<span id="click-me">Hide Melissa</span>
-			<span id="click-unhide">Hide Nate</span>
-
-				<img class="BayView" src="pics/happy-person.jpg">
-				<img class="nate" src="pics/nate.jpg">
 
 	<br>
+		<span id="click-me">Hide Nate</span>
+		<span id="click-unhide">Hide Courtney and Betsy</span>
+
+			<img class="Nate" src="pics/Nate.jpg">
+			<img class="courtney-and-betsy" src="pics/courtney-and-betsy.jpg">
+
 	<br>
-			<h2><strong>Hi. I'm Betsy.</strong></h2>
+	<br>
+		<h2><strong>Hi. I'm Betsy.</strong></h2>
 				<p class="paragraph-about">
-				<b>But a young sapling in photography, I eagerly search for images that could be my next favorite thing, and happiness in a person's face is an irresistible subject.  I find happiness in scenery, too, and ethereal lighting (if I should be so lucky to capture that).  Happiness is a feeling, but it is also an image... I hope to show my excitement for the simple, lovely feeling here, depicted in my photos.</b>
+					<b>But a young sapling in photography, I eagerly search for images that could be my next favorite thing, and happiness in a person's face is an irresistible subject.  I find happiness in scenery, too, and ethereal lighting (if I should be so lucky to capture that).  Happiness is a feeling, but it is also an image... I hope to show my excitement for the simple, lovely feeling here, depicted in my photos.</b>
+				</p>
+				<p class="paragraph-more">
+					<b>My website is a work in progress; everything you see I built from the ground-up, and I'd love your suggestions about how I could improve it to make it more fun!  I don't have a comment box up yet, but don't let that stop you from sharing your brilliant ideas with me.</b>
+				</p>
+				<p class="paragraph-feel-happy">
+					<b>Go ahead, click around... and feel happier.</b>
 				</p>
 	<br>
 	<br>
-			<h2 id="MiniPics">People/Animals</h2>
-				<ul class="bxslider">
-					<li> <img class="mini-pics" id="austin" src="pics/austin.jpg"></li>
-					<li> <img class="mini-pics" id="abby-and-becca" src="pics/abby-and-becca.jpg"></li>
-					<li> <img class="mini-pics" id="maddie" src="pics/maddie.jpg"></li>
-					<li> <img class="mini-pics" id="anna-icecream" src="pics/anna-icecream.jpg"> </li>
-					<li> <img class="mini-pics" id="chelsea-and-malia" src="pics/chelsea-and-malia.jpg"> </li>
-					<li> <img class="mini-pics" id="abby" src="pics/abby.jpg"></li>
-					<li> <img class="mini-pics" id="becca-ballstate" src="pics/becca-ballstate.jpg"></li>
-					<li> <img class="mini-pics" id="steve-and-reanna" src="pics/steve-and-reanna.jpg"></li>
-					<li> <img class="mini-pics" id="rach" src="pics/rach.jpg"></li>
-				</ul>
-			<h2> Places </h2>
-				<ul class="bxslider">
-					<li> <img class="mini-pics" id="" src="pics/"></li>
-					<li> <img class="mini-pics" id="" src="pics/"></li>
-					<li> <img class="mini-pics" id="" src="pics/"></li>
-				</ul>
-		</div>
+		<h2 a id="MiniPics">People/Animals</h2>
+			<ul class="bxslider">
+				<li> <img class="mini-pics" id="austin" src="pics/people/austin.jpg"></li>
+				<li> <img class="mini-pics" id="abby-and-becca" src="pics/people/abby-and-becca.jpg"></li>
+				<li> <img class="mini-pics" id="maddie" src="pics/people/maddie.jpg"></li>
+				<li> <img class="mini-pics" id="anna-icecream" src="pics/people/anna-icecream.jpg"> </li>
+				<li> <img class="mini-pics" id="chelsea-and-malia" src="pics/people/chelsea-and-malia.jpg"> </li>
+				<li> <img class="mini-pics" id="abby" src="pics/people/abby.jpg"></li>
+				<li> <img class="mini-pics" id="becca-ballstate" src="pics/people/becca-ballstate.jpg"></li>
+				<li> <img class="mini-pics" id="steve-and-reanna" src="pics/people/steve-and-reanna.jpg"></li>
+				<li> <img class="mini-pics" id="rach" src="pics/people/rach.jpg"></li>
+			</ul>
+	<br>
+	<br>
+		<h2> Places </h2>
+			<ul class="bxslider">
+				<li> <img class="mini-pics" id="flags" src="pics/places/flags.jpg"></li>
+				<li> <img class="mini-pics" id="tree-sky" src="pics/places/tree-sky.jpg"></li>
+				<li> <img class="mini-pics" id="farm-sunset" src="pics/places/farm-sunset.jpg"></li>
+				<li> <img class="mini-pics" id="ferris-wheel" src="pics/places/ferris-wheel.jpg"></li>
+				<li> <img class="mini-pics" id="small-sun-tree" src="pics/places/small-sun-tree.jpg"></li>
+				<li> <img class="mini-pics" id="reflection-water" src="pics/places/reflection-water.jpg"></li>
+				<li> <img class="mini-pics" id="city-girls" src="pics/places/city-girls.jpg"></li>
+				<li> <img class="mini-pics" id="tall-buildings" src="pics/places/tall-buildings.jpg"></li>
+				<li> <img class="mini-pics" id="roof-angle" src="pics/places/roof-angle.jpg"></li>
+			</ul>
+	<br>
+	<br>
+		<h2> Things </h2>
+			<ul class="bxslider">
+				<li> <img class="mini-pics" id="swinging-necklace" src="pics/things/swinging-necklace.jpg"></li>
+				<li> <img class="mini-pics" id="ball-jars" src="pics/things/ball-jars.jpg"></li>
+				<li> <img class="mini-pics" id="leaf" src="pics/things/leaf.jpg"> </li>
+				<li> <img class="mini-pics" id="wedding-rings" src="pics/things/wedding-rings.jpg"></li>
+				<li> <img class="mini-pics" id="chairs" src="pics/things/chairs.jpg"></li>
+				<li> <img class="mini-pics" id="bike" src="pics/things/bike.jpg"> </li>
+				<li> <img class="mini-pics" id="flowers" src="pics/things/flowers.jpg"> </li>
+				<li> <img class="mini-pics" id="dirty-window" src="pics/things/dirty-window.jpg"></li>
+				<li> <img class="mini-pics" id="lamp" src="pics/things/lamp.jpg"> </li>
+			</ul>
 
-		<br>
-			<a href="https://www.facebook.com/iwillbehaveuniquely?ref=tn_tnmn"><i class="button bounce fa fa-facebook-square" id="facebook"></i></a>					
+		<a href="https://www.facebook.com/iwillbehaveuniquely?ref=tn_tnmn" class="button bounce fa fa-facebook-square" id="facebook"></a>					
 
-			<i class="button bounce fa fa-camera-retro" id="camera"></i>
-			<a href="https://twitter.com/BetsyBenedict"><i class="button bounce fa fa-twitter" id="twitter"></i></a>
-			<i class="button bounce fa fa-coffee" id="fun"></i>
+		<a href="#MiniPics" class="button bounce fa fa-camera-retro" id="camera"></a>
+		<a href="https://twitter.com/BetsyBenedict" class="button bounce fa fa-twitter" id="twitter"></a>
+		<a href="https://vimeo.com/12088669" class="button bounce fa fa-coffee" id="fun"></a>
+	<br>
+	<br>
+	</div>
+
 
 <!--
 

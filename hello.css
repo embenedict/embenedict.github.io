@@ -60,6 +60,18 @@ a:hover {
 	color: #9CCF99;
 }
 
+.paragraph-more {
+	font-size: 32px;
+	border-top: dotted #FF9999 2px;
+	padding: 4px;
+}
+
+.paragraph-feel-happy {
+	font-size: 32px;
+	border-bottom: dotted #FF9999 2px;
+	padding: 1px;
+}
+
 .bxslider {
 	padding: 2px;
 	margin:5px;
@@ -67,14 +79,14 @@ a:hover {
 
 /*-------------------------------CLICK FUNCTION PICS-------------------------------*/
 
-img.BayView {
+img.Nate {
 	z-index: 1;
 	height: 15%;
 	width: 95%;
 	border: 15px solid black;
 	background-image:url('pics/nate.jpg');
 }
-img.nate {
+img.courtney-and-betsy {
 	z-index: -1;
 	width: 95%;
 	height: 20%;
