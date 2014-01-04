@@ -58,18 +58,21 @@ a:hover {
 .paragraph-about {
 	font-size: 40px;
 	color: #9CCF99;
+	margin-right: 3%;
 }
 
 .paragraph-more {
 	font-size: 32px;
 	border-top: dotted #FF9999 2px;
 	padding: 4px;
+	margin-right: 3%;
 }
 
 .paragraph-feel-happy {
 	font-size: 32px;
 	border-bottom: dotted #FF9999 2px;
-	padding: 2px;
+	padding: 4px;
+	margin-right: 3%;
 }
 
 .bxslider {
