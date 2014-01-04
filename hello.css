@@ -1,10 +1,10 @@
 #main_container {
-	margin: 10%;
+	margin: 12%;
 }
 
 
 p {
-	font-size: 25px;
+	font-size: 18px;
 	color: #FF9999;
 }
 body {
@@ -18,16 +18,41 @@ body {
 h1 {
 	font-size: 60px;
 	color: #FF9999;
+	text-align: center;
 }
 
 h2 {
-	font-size: 50px;
+	font-size: 65px;
 	color: #9CCF99;
+	text-align: center;
+}
+
+footer {
+	font-size: 29px;
+	text-align: center;
+}
+
+a:hover {
+	color: #9CCF99;
+}
+
+/*-----------------------------------OPAQUE BOX------------------------------------*/
+
+.transbox {
+	width: 100%;
+	height: inherit;
+	padding-left: 3%;
+	padding-right: inherit;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: rgba(0, 0, 0, 0.5);
 }
 
 .happy-definition {
 	border: 1px solid #FF9999;
 	padding:5%;
+	margin-right: 8%;
+	margin-left: 5%;
 }
 
 .paragraph-about {
@@ -35,13 +60,9 @@ h2 {
 	color: #9CCF99;
 }
 
-th:hover, th:focus, th:active {  
-	color: #0085AF;
-}
-.list {
-	border: 2px solid black;
-	display: inline-block;	 
-}
+
+/*-------------------------------CLICK FUNCTION PICS-------------------------------*/
+
 img.BayView {
 	z-index: 1;
 	height: 15%;
@@ -108,7 +129,7 @@ img.nate {
 	width: 2%;
 	height: 7%;
 	position: fixed;
-	left: 3%;
+	left: 4%;
 	color: #FF9999;
 	text-decoration: none;
 	transition: all 0.5s ease-in-out;
@@ -140,4 +161,16 @@ img.nate {
         animation:bounce 1s;
 }
 
+/*-------------------------------------OTHER-------------------------------------*/
 
+/*
+
+th:hover, th:focus, th:active {  
+	color: #0085AF;
+}
+.list {
+	border: 2px solid black;
+	display: inline-block;	 
+}
+
+*/
