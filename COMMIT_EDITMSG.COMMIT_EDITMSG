@@ -1,0 +1,49 @@
+adding to people/animals bxslider
+
+# adding footer and
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/index.html b/index.html
+index 3fbddb0..cf3d6db 100644
+--- a/index.html
++++ b/index.html
+@@ -41,8 +41,8 @@
+ 
+ 		$(document).ready(function(){
+ 			  $('.bxslider').bxSlider({
+-			    minSlides: 2,
+-			    maxSlides: 2,
++			    minSlides: 3,
++			    maxSlides: 3,
+ 			    slideWidth: 438,
+ 			    slideMargin: 20
+ 			});
+@@ -81,11 +81,23 @@
+ 				</p>
+ 	<br>
+ 	<br>
+-			<h2 id="MiniPics">Mini Pics</h2>
++			<h2 id="MiniPics">People/Animals</h2>
+ 				<ul class="bxslider">
+-					<li> <img class="mini-pics" id="Betsy" src="pics/betsy.jpg"> </li>
+-					<li> <img class="mini-pics" id="BetsyAndJordan" src="pics/BetsyAndJordan.jpg"> </li>
+-					<li> <img class="mini-pics" id="Abbs" src="pics/Abbs.jpg"> </li>
++					<li> <img class="mini-pics" id="austin" src="pics/austin.jpg"></li>
++					<li> <img class="mini-pics" id="abby-and-becca" src="pics/abby-and-becca.jpg"></li>
++					<li> <img class="mini-pics" id="maddie" src="pics/maddie.jpg"></li>
++					<li> <img class="mini-pics" id="anna-icecream" src="pics/anna-icecream.jpg"> </li>
++					<li> <img class="mini-pics" id="chelsea-and-malia" src="pics/chelsea-and-malia.jpg"> </li>
++					<li> <img class="mini-pics" id="abby" src="pics/abby.jpg"></li>
++					<li> <img class="mini-pics" id="becca-ballstate" src="pics/becca-ballstate.jpg"></li>
++					<li> <img class="mini-pics" id="steve-and-reanna" src="pics/steve-and-reanna.jpg"></li>
++					<li> <img class="mini-pics" id="rach" src="pics/rach.jpg"></li>
++				</ul>
++			<h2> Places </h2>
++				<ul class="bxslider">
++					<li> <img class="mini-pics" id="" src="pics/"></li>
++					<li> <img class="mini-pics" id="" src="pics/"></li>
++					<li> <img class="mini-pics" id="" src="pics/"></li>
+ 				</ul>
+ 		</div>
