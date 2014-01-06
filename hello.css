@@ -84,7 +84,7 @@ a:hover {
 
 img.nate {
 	z-index: 1;
-	height: 15%;
+	height: 14em;
 	width: 95%;
 	border: 15px solid black;
 	background-image:url('pics/nate.jpg');
@@ -92,7 +92,7 @@ img.nate {
 img.courtney-and-betsy {
 	z-index: -1;
 	width: 95%;
-	height: 20%;
+	height: 14em;
 	border:15px solid black;
 }
 
