@@ -10,7 +10,8 @@ p {
 body {
 	font-family: 'Amatic SC', sans-serif;
 	font-size: 45px;
-	background-image:url('pics/sun-tree.jpg');
+	background-image:url('pics/maddie-looks-up.jpg');
+	background-size: 100%;
 	background-attachment: fixed;
 	z-index: -999;
 }
@@ -19,11 +20,14 @@ h1 {
 	font-size: 60px;
 	color: #FF9999;
 	text-align: center;
+	margin-left: 8%;
+	margin-right: 8%;
 }
 
 h2 {
 	font-size: 40px;
 	color: #FF9999;
+	text-align: center;
 }
 
 footer {
@@ -32,16 +36,16 @@ footer {
 }
 
 a:hover {
-	color: #9CCF99;
+	color: #FF9999;
 }
 
 /*-----------------------------------OPAQUE BOX------------------------------------*/
 
 .transbox {
 	width: 100%;
-	height: 90%;
+	height: inherit;
 	padding-left: 3%;
-	padding-right: 3%;
+	padding-right: inherit;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background: rgba(0, 0, 0, 0.5);
@@ -117,29 +121,6 @@ img.courtney-and-betsy {
 }
 
 
-/*--------------------------------MINI PICS--------------------------------------
-
-#Betsy {
-	float-left;
-	width: 40%;
-	height: 10%;
-	border:12px solid black;
-}
-
-#BetsyAndJordan {
-	float-left;
-	width: 29%;
-	height: 10%;
-	border:12px solid black;
-}
-
-#Abbs {
-	float-left;
-	width: 33%;
-	height: 16%;
-	border:12px solid black;
-}
-
 /* ----------------------------- FONT_AWESOME ICONS ------------------------------------ */
 
 
@@ -179,37 +160,20 @@ img.courtney-and-betsy {
         animation:bounce 1s;
 }
 
-/*-------------------------------------OTHER-------------------------------------*/
+/*-------------------------------------------- page 2 ------------------------------------*/
 
-.header {
-	color: #FF9999;
-	font-size: 30px;
-	float: right;
-	margin-top: -12%;
-	margin-right: 8%;
-}
-
-a.header {
+.home {
+	margin-left: 2%;
+	color: #9CCF99;
 	text-decoration: none;
+	border: dotted 3px #9CCF99;
+	padding: 4px;
 }
 
-link {
+.other {
+	margin-left: 2%;
+	color: #9CCF99;
 	text-decoration: none;
+	border: dotted 3px #9CCF99;
+	padding: 4px;
 }
-
-.one-line {
-	list-style-type: none;
-}
-
-
-/*
-
-th:hover, th:focus, th:active {  
-	color: #0085AF;
-}
-.list {
-	border: 2px solid black;
-	display: inline-block;	 
-}
-
-*/
