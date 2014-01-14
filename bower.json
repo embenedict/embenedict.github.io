@@ -21,6 +21,9 @@
   "dependencies": {
     "angular": "~1.2.8",
     "jquery": "~2.0.3",
-    "bxslider": "*"
+    "bxslider": "*",
+    "font-awesome": "~4.0.3",
+    "firebase": "~1.0.2",
+    "firebase-simple-login": "~1.0.2"
   }
 }
