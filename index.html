@@ -1,65 +1,18 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+	<title>A place for happy.</title>
+	<script src="bower_components/jquery/jquery.min.js"></script>
+	<script src="jquery.bxslider.min.js"></script>
+	<script src='bower_components/firebase/firebase.js'></script>
+	<script src='bower_components/firebase-simple-login/firebase-simple-login.js'></script>
 
-	<title> 
-		A place for happy.
-	</title>
-	<script src='https://cdn.firebase.com/v0/firebase.js'></script>
-	<script type='text/javascript'src='https://cdn.firebase.com/v0/firebase-simple-login.js'></script>
-	<link rel="shortcut icon"  href="camera-icon.png"> 
-
-	<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link rel="shortcut icon"  href="camera-icon.png">
+	<link href="bower_components/font-awesome/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="animate-custom.css">
 	<link href="jquery.bxslider.css" rel="stylesheet" type="text/css" media="screen">
 	<link href="hello.css" rel="stylesheet" type="text/css" media="screen">
-
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="jquery.bxslider.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#click-me').click(function() {
-				nate = $('.nate');
-	    		if(nate.is(':visible')) {
-	    			$(this).html("Show Nate");
-	    			nate.slideUp();
-	    		} else {
-	    			$(this).html("Hide Nate");
-	    			nate.slideDown();
-	    		}
-			});
-			$('#click-unhide').click(function() {
-				courtney = $('.courtney-and-betsy');
-				if(courtney.is(':visible')) {
-					$(this).html("Show Courtney and Betsy");
-					courtney.slideUp();
-				} else {
-					$(this).html("Hide Courtney and Betsy");
-					courtney.slideDown();
-				}
-			});
-		});
-
-		$(document).ready(function(){
-			  $('.bxslider').bxSlider({
-			    minSlides: 3,
-			    maxSlides: 3,
-			    slideWidth: 438,
-			    slideMargin: 20
-			});
-		});
-
-		$(document).ready(function() {
-			var chatRef = new Firebase('https://embenedict.firebaseio.com');
-			var auth = new FirebaseSimpleLogin(chatRef, function(error, user) {});
-
-			$('#facebook-click').click(function(){
-				auth.login('facebook');
-			});
-		});
-	</script>
-
+	<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
 
 </head>
 
@@ -195,5 +148,47 @@
 	<footer>
 		<strong>&copy;Rights of Betsy Benedict.  If you'd like to use my photos, feel free to contact me at <a href="mailto:elisabeth.m.benedict@gmail.com">elisabeth.m.benedict@gmail.com</a>. </strong>
 	</footer>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#click-me').click(function() {
+				nate = $('.nate');
+	    		if(nate.is(':visible')) {
+	    			$(this).html("Show Nate");
+	    			nate.slideUp();
+	    		} else {
+	    			$(this).html("Hide Nate");
+	    			nate.slideDown();
+	    		}
+			});
+			$('#click-unhide').click(function() {
+				courtney = $('.courtney-and-betsy');
+				if(courtney.is(':visible')) {
+					$(this).html("Show Courtney and Betsy");
+					courtney.slideUp();
+				} else {
+					$(this).html("Hide Courtney and Betsy");
+					courtney.slideDown();
+				}
+			});
+		});
+
+		$(document).ready(function(){
+			  $('.bxslider').bxSlider({
+			    minSlides: 3,
+			    maxSlides: 3,
+			    slideWidth: 438,
+			    slideMargin: 20
+			});
+		});
+
+		$(document).ready(function() {
+			var chatRef = new Firebase('https://embenedict.firebaseio.com');
+			var auth = new FirebaseSimpleLogin(chatRef, function(error, user) {});
+
+			$('#facebook-click').click(function(){
+				auth.login('facebook');
+			});
+		});
+	</script>
 </body>
 </html>
