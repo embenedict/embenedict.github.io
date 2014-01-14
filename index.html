@@ -13,7 +13,7 @@
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="animate-custom.css">
 	<link href="jquery.bxslider.css" rel="stylesheet" type="text/css" media="screen">
-	<link href="hello.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="hello.css" ng-href="{{page_css}}" rel="stylesheet" type="text/css" media="screen">
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="jquery.bxslider.min.js"></script>
@@ -64,134 +64,134 @@
 </head>
 
 <body>
-
-	<div>
-		<a class="facebook-login" id="facebook-click"> Login with Facebook </a>
-		<a href="index.html" class="Home"> Home </a>
-		<a href="aboutMe.html" class="aboutMe"> About Me </a>
-		<a href="favSites.html" class="favSites"> Favorites </a>
-		<a href="page2.html" class="header"> Blog </a>
-
-	</div>
-
-	<div id="main_container">
-
-	<div class="transbox">
-
-		<h1>a place for happy.</h1>
-	
-		<p class="happy-definition"> <code> happy &middot; |ha-pe|
-		<br> <em><small>(adjective)</small></em>
-		<br> feeling or showing pleasure or contentment : 
-		<br><em>Melissa came in looking happy and excited</em> | <em>they are happy to see me doing well.</em> </code></p>
-
-	<br>
-		<span id="click-me">Hide Nate</span>
-		<span id="click-unhide">Hide Courtney and Betsy</span>
-
-			<img class="nate" src="pics/nate.jpg">
-			<img class="courtney-and-betsy" src="pics/courtney-and-betsy.jpg">
-
-	<br>
-	<br>
-		<h2 a id="MiniPics">People/Animals</h2>
-			<ul class="bxslider">
-				<li> <img class="mini-pics" id="austin" src="pics/people/austin.jpg"></li>
-				<li> <img class="mini-pics" id="abby-and-becca" src="pics/people/abby-and-becca.jpg"></li>
-				<li> <img class="mini-pics" id="maddie" src="pics/people/maddie.jpg"></li>
-				<li> <img class="mini-pics" id="anna-icecream" src="pics/people/anna-icecream.jpg"> </li>
-				<li> <img class="mini-pics" id="chelsea-and-malia" src="pics/people/chelsea-and-malia.jpg"> </li>
-				<li> <img class="mini-pics" id="abby" src="pics/people/abby.jpg"></li>
-				<li> <img class="mini-pics" id="becca-ballstate" src="pics/people/becca-ballstate.jpg"></li>
-				<li> <img class="mini-pics" id="steve-and-reanna" src="pics/people/steve-and-reanna.jpg"></li>
-				<li> <img class="mini-pics" id="rach" src="pics/people/rach.jpg"></li>
-			</ul>
-	<br>
-	<br>
-		<h2> Places </h2>
-			<ul class="bxslider">
-				<li> <img class="mini-pics" id="flags" src="pics/places/flags.jpg"></li>
-				<li> <img class="mini-pics" id="tree-sky" src="pics/places/tree-sky.jpg"></li>
-				<li> <img class="mini-pics" id="farm-sunset" src="pics/places/farm-sunset.jpg"></li>
-				<li> <img class="mini-pics" id="ferris-wheel" src="pics/places/ferris-wheel.jpg"></li>
-				<li> <img class="mini-pics" id="small-sun-tree" src="pics/places/small-sun-tree.jpg"></li>
-				<li> <img class="mini-pics" id="reflection-water" src="pics/places/reflection-water.jpg"></li>
-				<li> <img class="mini-pics" id="city-girls" src="pics/places/city-girls.jpg"></li>
-				<li> <img class="mini-pics" id="tall-buildings" src="pics/places/tall-buildings.jpg"></li>
-				<li> <img class="mini-pics" id="roof-angle" src="pics/places/roof-angle.jpg"></li>
-			</ul>
-	<br>
-	<br>
-		<h2> Things </h2>
-			<ul class="bxslider">
-				<li> <img class="mini-pics" id="swinging-necklace" src="pics/things/swinging-necklace.jpg"></li>
-				<li> <img class="mini-pics" id="ball-jars" src="pics/things/ball-jars.jpg"></li>
-				<li> <img class="mini-pics" id="leaf" src="pics/things/leaf.jpg"> </li>
-				<li> <img class="mini-pics" id="wedding-rings" src="pics/things/wedding-rings.jpg"></li>
-				<li> <img class="mini-pics" id="chairs" src="pics/things/chairs.jpg"></li>
-				<li> <img class="mini-pics" id="bike" src="pics/things/bike.jpg"> </li>
-				<li> <img class="mini-pics" id="flowers" src="pics/things/flowers.jpg"> </li>
-				<li> <img class="mini-pics" id="dirty-window" src="pics/things/dirty-window.jpg"></li>
-				<li> <img class="mini-pics" id="lamp" src="pics/things/lamp.jpg"> </li>
-			</ul>
-
-		<a href="http://embenedict.github.io" class="button bounce fa fa-home" id="home"></a>
-		<a href="https://www.facebook.com/iwillbehaveuniquely?ref=tn_tnmn" class="button bounce fa fa-facebook-square" id="facebook"></a>		
-		<a href="https://twitter.com/BetsyBenedict" class="button bounce fa fa-twitter" id="twitter"></a>
-		<a href="index.html#MiniPics" class="button bounce fa fa-camera-retro" id="camera"></a>
-	<br>
-	<br>
-	</div>
-
-
-<!--
-
-		<p>Hi.  I'm Betsy.</p>
-		<p>So much to learn... <em>and so much time</em>. </p>
-
-		<div class="list"> Non-new things that are nonetheless lovely:&nbsp;
-			<ul>
-				<li class="list-item">Diamonds </li>
-				<li class="list-item">San Fran </li>
-				<li>Java </li>
-			</ul>
-		</div>
-
-
-		<h1>Table Time</h1>
-		<table align="center" border="1" cellpadding="4" cellspacing="0">
-			<tbody> </tbody>
-			<div class="bold">
-				<tr> 
-					<th> Present Tense </th>
-					<th> Future Tense </th>
-					<th> Past Tense </th>
-				</tr>
-			</div>
-				<tr> 
-					<th> Eat </th>
-					<th> To Eat </th>
-					<th> Ate </th>
-				</tr>
-				<tr> 
-					<th> Run </th>
-					<th> To Run </th>
-					<th> Ran </th>
-				</tr>
-				<tr> 
-					<th> Show </th>
-					<th> To Show </th>
-					<th> Showed </th>
-				</tr>
-		</table>
-
-		<input checkbox> Are you on twitter? </input>
+	<div ng-view="">
 		<div>
-			<a href="https://twitter.com/"> Twitter! </a>
-		</div>
--->
-	</div>
+			<a class="fa fa-facebook-square" id="facebook-click"> </a>
+			<a href="index.html" class="Home"> Home </a>
+			<a href="aboutMe.html" class="aboutMe"> About Me </a>
+			<a href="favSites.html" class="favSites"> Favorites </a>
+			<a href="page2.html" class="header"> Blog </a>
 
+		</div>
+
+		<div id="main_container">
+
+		<div class="transbox">
+
+			<h1>a place for happy.</h1>
+		
+			<p class="happy-definition"> <code> happy &middot; |ha-pe|
+			<br> <em><small>(adjective)</small></em>
+			<br> feeling or showing pleasure or contentment : 
+			<br><em>Melissa came in looking happy and excited</em> | <em>they are happy to see me doing well.</em> </code></p>
+
+		<br>
+			<span id="click-me">Hide Nate</span>
+			<span id="click-unhide">Hide Courtney and Betsy</span>
+
+				<img class="nate" src="pics/nate.jpg">
+				<img class="courtney-and-betsy" src="pics/courtney-and-betsy.jpg">
+
+		<br>
+		<br>
+			<h2 a id="MiniPics">People/Animals</h2>
+				<ul class="bxslider">
+					<li> <img class="mini-pics" id="austin" src="pics/people/austin.jpg"></li>
+					<li> <img class="mini-pics" id="abby-and-becca" src="pics/people/abby-and-becca.jpg"></li>
+					<li> <img class="mini-pics" id="maddie" src="pics/people/maddie.jpg"></li>
+					<li> <img class="mini-pics" id="anna-icecream" src="pics/people/anna-icecream.jpg"> </li>
+					<li> <img class="mini-pics" id="chelsea-and-malia" src="pics/people/chelsea-and-malia.jpg"> </li>
+					<li> <img class="mini-pics" id="abby" src="pics/people/abby.jpg"></li>
+					<li> <img class="mini-pics" id="becca-ballstate" src="pics/people/becca-ballstate.jpg"></li>
+					<li> <img class="mini-pics" id="steve-and-reanna" src="pics/people/steve-and-reanna.jpg"></li>
+					<li> <img class="mini-pics" id="rach" src="pics/people/rach.jpg"></li>
+				</ul>
+		<br>
+		<br>
+			<h2> Places </h2>
+				<ul class="bxslider">
+					<li> <img class="mini-pics" id="flags" src="pics/places/flags.jpg"></li>
+					<li> <img class="mini-pics" id="tree-sky" src="pics/places/tree-sky.jpg"></li>
+					<li> <img class="mini-pics" id="farm-sunset" src="pics/places/farm-sunset.jpg"></li>
+					<li> <img class="mini-pics" id="ferris-wheel" src="pics/places/ferris-wheel.jpg"></li>
+					<li> <img class="mini-pics" id="small-sun-tree" src="pics/places/small-sun-tree.jpg"></li>
+					<li> <img class="mini-pics" id="reflection-water" src="pics/places/reflection-water.jpg"></li>
+					<li> <img class="mini-pics" id="city-girls" src="pics/places/city-girls.jpg"></li>
+					<li> <img class="mini-pics" id="tall-buildings" src="pics/places/tall-buildings.jpg"></li>
+					<li> <img class="mini-pics" id="roof-angle" src="pics/places/roof-angle.jpg"></li>
+				</ul>
+		<br>
+		<br>
+			<h2> Things </h2>
+				<ul class="bxslider">
+					<li> <img class="mini-pics" id="swinging-necklace" src="pics/things/swinging-necklace.jpg"></li>
+					<li> <img class="mini-pics" id="ball-jars" src="pics/things/ball-jars.jpg"></li>
+					<li> <img class="mini-pics" id="leaf" src="pics/things/leaf.jpg"> </li>
+					<li> <img class="mini-pics" id="wedding-rings" src="pics/things/wedding-rings.jpg"></li>
+					<li> <img class="mini-pics" id="chairs" src="pics/things/chairs.jpg"></li>
+					<li> <img class="mini-pics" id="bike" src="pics/things/bike.jpg"> </li>
+					<li> <img class="mini-pics" id="flowers" src="pics/things/flowers.jpg"> </li>
+					<li> <img class="mini-pics" id="dirty-window" src="pics/things/dirty-window.jpg"></li>
+					<li> <img class="mini-pics" id="lamp" src="pics/things/lamp.jpg"> </li>
+				</ul>
+
+			<a href="http://embenedict.github.io" class="button bounce fa fa-home" id="home"></a>
+			<a href="https://www.facebook.com/iwillbehaveuniquely?ref=tn_tnmn" class="button bounce fa fa-facebook" id="facebook"></a>		
+			<a href="https://twitter.com/BetsyBenedict" class="button bounce fa fa-twitter" id="twitter"></a>
+			<a href="index.html#MiniPics" class="button bounce fa fa-camera-retro" id="camera"></a>
+		<br>
+		<br>
+		</div>
+
+
+	<!--
+
+			<p>Hi.  I'm Betsy.</p>
+			<p>So much to learn... <em>and so much time</em>. </p>
+
+			<div class="list"> Non-new things that are nonetheless lovely:&nbsp;
+				<ul>
+					<li class="list-item">Diamonds </li>
+					<li class="list-item">San Fran </li>
+					<li>Java </li>
+				</ul>
+			</div>
+
+
+			<h1>Table Time</h1>
+			<table align="center" border="1" cellpadding="4" cellspacing="0">
+				<tbody> </tbody>
+				<div class="bold">
+					<tr> 
+						<th> Present Tense </th>
+						<th> Future Tense </th>
+						<th> Past Tense </th>
+					</tr>
+				</div>
+					<tr> 
+						<th> Eat </th>
+						<th> To Eat </th>
+						<th> Ate </th>
+					</tr>
+					<tr> 
+						<th> Run </th>
+						<th> To Run </th>
+						<th> Ran </th>
+					</tr>
+					<tr> 
+						<th> Show </th>
+						<th> To Show </th>
+						<th> Showed </th>
+					</tr>
+			</table>
+
+			<input checkbox> Are you on twitter? </input>
+			<div>
+				<a href="https://twitter.com/"> Twitter! </a>
+			</div>
+	-->
+		</div>
+	</div>
 	<footer>
 		<strong>&copy;Rights of Betsy Benedict.  If you'd like to use my photos, feel free to contact me at <a href="mailto:elisabeth.m.benedict@gmail.com">elisabeth.m.benedict@gmail.com</a>. </strong>
 	</footer>
