@@ -5,6 +5,8 @@
 	<title> 
 		A place for happy.
 	</title>
+	<script src='https://cdn.firebase.com/v0/firebase.js'></script>
+	<script type='text/javascript'src='https://cdn.firebase.com/v0/firebase-simple-login.js'></script>
 	<link rel="shortcut icon"  href="camera-icon.png"> 
 
 	<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
@@ -48,8 +50,14 @@
 			});
 		});
 
+		$(document).ready(function() {
+			var chatRef = new Firebase('https://embenedict.firebaseio.com');
+			var auth = new FirebaseSimpleLogin(chatRef, function(error, user) {});
 
-
+			$('#facebook-click').click(function(){
+				auth.login('facebook');
+			});
+		});
 	</script>
 
 
@@ -58,6 +66,7 @@
 <body>
 
 	<div>
+		<a class="facebook-login" id="facebook-click"> Login with Facebook </a>
 		<a href="index.html" class="Home"> Home </a>
 		<a href="aboutMe.html" class="aboutMe"> About Me </a>
 		<a href="favSites.html" class="favSites"> Favorites </a>

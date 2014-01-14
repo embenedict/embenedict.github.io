@@ -206,6 +206,10 @@ a.Home {
 	text-decoration: none;
 }
 
+a.facebook-login {
+	text-decoration: none;
+}
+
 .favSites {
 	color: #FF9999;
 	font-size: 30px;
@@ -228,6 +232,14 @@ a.Home {
 	float: right;
 	margin-top: -12%;
 	margin-right: 29%;
+}
+
+.facebook-login {
+	color: #FF9999;
+	font-size: 30px;
+	float: right;
+	margin-top: -12%;
+	margin-right: 40%;
 }
 
 
