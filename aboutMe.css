@@ -5,13 +5,12 @@
 
 p {
 	font-size: 18px;
-	color: #FF9999;
+	color: #9CCF99;
 }
 body {
 	font-family: 'Amatic SC', sans-serif;
 	font-size: 45px;
-	background-image:url('pics/maddie-looks-up.jpg');
-	background-size: 100%;
+	background-image:url('pics/sun-tree.jpg');
 	background-attachment: fixed;
 	z-index: -999;
 }
@@ -20,12 +19,10 @@ h1 {
 	font-size: 60px;
 	color: #9CCF99;
 	text-align: center;
-	margin-left: 8%;
-	margin-right: 8%;
 }
 
 h2 {
-	font-size: 40px;
+	font-size: 65px;
 	color: #FF9999;
 	text-align: center;
 }
@@ -35,13 +32,17 @@ footer {
 	text-align: center;
 }
 
+a:hover {
+	color: #9CCF99;
+}
+
 /*-----------------------------------OPAQUE BOX------------------------------------*/
 
 .transbox {
 	width: 100%;
-	height: inherit;
+	height: 90%;
 	padding-left: 3%;
-	padding-right: inherit;
+	padding-right: 3%;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background: rgba(0, 0, 0, 0.5);
@@ -55,15 +56,27 @@ footer {
 
 .paragraph-more {
 	font-size: 32px;
-	border-top: dotted #FF9999 2px;
+	border-top: dotted #9CCF99 2px;
 	padding: 4px;
 	margin-right: 3%;
 }
 
 .paragraph-feel-happy {
 	font-size: 32px;
-	border-bottom: dotted #FF9999 2px;
+	border-bottom: dotted #9CCF99 2px;
 	padding: 4px;
+	margin-right: 3%;
+}
+
+.paragraph-who-is {
+	font-size: 40px;
+	color: #9CCF99;
+	margin-right: 3%;
+}
+
+.paragraph-me {
+	font-size: 40px;
+	color: #9CCF99;
 	margin-right: 3%;
 }
 
@@ -75,8 +88,8 @@ footer {
 /*-------------------------------CLICK FUNCTION PICS-------------------------------*/
 
 
-
 /* ----------------------------- FONT_AWESOME ICONS ------------------------------------ */
+
 
 .button {
 	width: 2%;
@@ -117,9 +130,9 @@ footer {
 a:hover {
 	color: #9CCF99;
 }
+ 
+/*---------------------------------------- Navigation Bar -------------------------------------------*/
 
-
-/*----------------------------------- Navigation Bar ----------------------------------*/
 .header {
 	color: #FF9999;
 	font-size: 30px;
@@ -168,4 +181,3 @@ a.Home {
 	margin-right: 29%;
 }
 
-/*-------------------------------------------- page 2 ------------------------------------*/

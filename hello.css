@@ -22,8 +22,9 @@ h1 {
 }
 
 h2 {
-	font-size: 40px;
-	color: #FF9999;
+	font-size: 65px;
+	color: #9CCF99;
+	text-align: center;
 }
 
 footer {
@@ -154,13 +155,13 @@ img.courtney-and-betsy {
 }
 
 #facebook {
-	z-index: 1;
-	top: 29%;
+	z-index: 2;
+	top: 40%;
 }
 
 #camera {
-	z-index: 2;
-	top: 40%;
+	z-index: 4;
+	top: 60%;
 }
 
 #twitter {
@@ -168,9 +169,9 @@ img.courtney-and-betsy {
 	top: 50%;
 }
 
-#fun {
-	z-index: 4;
-	top: 60%;
+#home {
+	z-index: 1;
+	top: 29%;
 }
 
 .button:hover {
@@ -179,7 +180,7 @@ img.courtney-and-betsy {
         animation:bounce 1s;
 }
 
-/*-------------------------------------OTHER-------------------------------------*/
+/*------------------------------------- Navigation Bar -------------------------------------*/
 
 .header {
 	color: #FF9999;
@@ -193,12 +194,40 @@ a.header {
 	text-decoration: none;
 }
 
-link {
+a.favSites {
 	text-decoration: none;
 }
 
-.one-line {
-	list-style-type: none;
+a.aboutMe {
+	text-decoration: none;
+}
+
+a.Home {
+	text-decoration: none;
+}
+
+.favSites {
+	color: #FF9999;
+	font-size: 30px;
+	float: right;
+	margin-top: -12%;
+	margin-right: 13%;
+}
+
+.aboutMe {
+	color: #FF9999;
+	font-size: 30px;
+	float: right;
+	margin-top: -12%;
+	margin-right: 21%;
+}
+
+.Home {
+	color: #FF9999;
+	font-size: 30px;
+	float: right;
+	margin-top: -12%;
+	margin-right: 29%;
 }
 
 

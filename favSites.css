@@ -10,8 +10,7 @@ p {
 body {
 	font-family: 'Amatic SC', sans-serif;
 	font-size: 45px;
-	background-image:url('pics/maddie-looks-up.jpg');
-	background-size: 100%;
+	background-image:url('pics/sun-tree.jpg');
 	background-attachment: fixed;
 	z-index: -999;
 }
@@ -20,13 +19,11 @@ h1 {
 	font-size: 60px;
 	color: #9CCF99;
 	text-align: center;
-	margin-left: 8%;
-	margin-right: 8%;
 }
 
 h2 {
-	font-size: 40px;
-	color: #FF9999;
+	font-size: 65px;
+	color: #9CCF99;
 	text-align: center;
 }
 
@@ -35,16 +32,27 @@ footer {
 	text-align: center;
 }
 
+a:hover {
+	color: #9CCF99;
+}
+
 /*-----------------------------------OPAQUE BOX------------------------------------*/
 
 .transbox {
 	width: 100%;
-	height: inherit;
+	height: 90%;
 	padding-left: 3%;
-	padding-right: inherit;
+	padding-right: 3%;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background: rgba(0, 0, 0, 0.5);
+}
+
+.happy-definition {
+	border: 1px solid #FF9999;
+	padding:5%;
+	margin-right: 8%;
+	margin-left: 5%;
 }
 
 .paragraph-about {
@@ -74,6 +82,40 @@ footer {
 
 /*-------------------------------CLICK FUNCTION PICS-------------------------------*/
 
+img.nate {
+	z-index: 1;
+	height: 14em;
+	width: 95%;
+	border: 15px solid black;
+	background-image:url('pics/nate.jpg');
+}
+img.courtney-and-betsy {
+	z-index: -1;
+	width: 95%;
+	height: 14em;
+	border:15px solid black;
+}
+
+#click-me {
+	font-size: 25px;
+	background-color: black;
+	color: #9CCF99;
+	padding: 10px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+#click-unhide {
+	font-size: 25px;
+}
+
+#click-unhide {
+	background-color: black;
+	color: #9CCF99;
+	padding: 10px;
+	margin: 10px;
+	cursor: pointer;
+}
 
 
 /* ----------------------------- FONT_AWESOME ICONS ------------------------------------ */
@@ -118,8 +160,8 @@ a:hover {
 	color: #9CCF99;
 }
 
+/*------------------------------ Navigation Bar -------------------------*/
 
-/*----------------------------------- Navigation Bar ----------------------------------*/
 .header {
 	color: #FF9999;
 	font-size: 30px;
@@ -167,5 +209,3 @@ a.Home {
 	margin-top: -12%;
 	margin-right: 29%;
 }
-
-/*-------------------------------------------- page 2 ------------------------------------*/
