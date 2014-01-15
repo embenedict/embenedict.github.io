@@ -11,7 +11,36 @@
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="jquery.bxslider.min.js"></script>
+	<script>
+		function clearInfo() {
+			document.getElementById('yourSite').value=('');
+		}
 
+	</script>
+	<script>
+		function addToPage() {
+			document.getElementById('siteAdded').value=document.getElementById('yourSite').value;
+			document.getElementById('thanks').value=('...Thanks for your help!');
+			};
+	</script>
+
+<!-- Comments: TRYING OUT JQUERY TO FADE_IN 'thanks'
+
+
+
+	<script>
+		$thanks(function()  {
+			$('#thanks').value=('...Thanks for your help!');
+  			$('input')(function(){
+    			$("#thanks").fadeIn(3000);
+  			});
+		});
+</script>
+
+
+
+
+-->
 	<title> 
 		happy: favorite sites
 	</title>
@@ -22,7 +51,7 @@
 
 	<div>
 		<a href="index.html" class="Home"> Home </a>
-		<a href="aboutMe.html" class="aboutMe"> About Me </a>
+		<a href="about.html" class="about"> About </a>
 		<a href="favSites.html" class="favSites"> Favorites </a>
 		<a href="page2.html" class="header"> Blog </a>
 
@@ -30,8 +59,20 @@
 
 	<div id="main_container">
 		<div class="transbox">
-			<h1> This is where I list my favorite pages. </h1>
+			<h1> What sites do you recommend? </h1>
 			<br>
+		<div form>
+			<input onclick="clearInfo()" type="text" id="yourSite" value="Enter your site name here"> </input>
+			<br>
+			<input button onfocus="addToPage()" onclick="clearInfo()" type="submit" id="addMySite" value="Add My Site!"> </input>
+			<br>
+			<br>
+		<div class="transbox2">
+			<input type="text" id="siteAdded" value=""> </input>
+			<input onsubmit="thanks()" id="thanks" value="(Your site will show up here)"></input>
+			<br>
+		</div>
+		</div>
 			<br>
 			<br>
 			<br>

@@ -5,13 +5,12 @@
 
 p {
 	font-size: 18px;
-	color: #FF9999;
+	color: #9CCF99;
 }
 body {
 	font-family: 'Amatic SC', sans-serif;
 	font-size: 45px;
-	background-image:url('pics/maddie-looks-up.jpg');
-	background-size: 100%;
+	background-image:url('pics/sun-tree.jpg');
 	background-attachment: fixed;
 	z-index: -999;
 }
@@ -20,12 +19,10 @@ h1 {
 	font-size: 60px;
 	color: #9CCF99;
 	text-align: center;
-	margin-left: 8%;
-	margin-right: 8%;
 }
 
 h2 {
-	font-size: 40px;
+	font-size: 65px;
 	color: #FF9999;
 	text-align: center;
 }
@@ -35,48 +32,28 @@ footer {
 	text-align: center;
 }
 
+a:hover {
+	color: #9CCF99;
+}
+
 /*-----------------------------------OPAQUE BOX------------------------------------*/
 
 .transbox {
 	width: 100%;
-	height: inherit;
+	height: 90%;
 	padding-left: 3%;
-	padding-right: inherit;
+	padding-right: 3%;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background: rgba(0, 0, 0, 0.5);
 }
 
-.paragraph-about {
-	font-size: 40px;
-	color: #9CCF99;
-	margin-right: 3%;
-}
-
-.paragraph-more {
-	font-size: 32px;
-	border-top: dotted #FF9999 2px;
-	padding: 4px;
-	margin-right: 3%;
-}
-
-.paragraph-feel-happy {
-	font-size: 32px;
-	border-bottom: dotted #FF9999 2px;
-	padding: 4px;
-	margin-right: 3%;
-}
-
-.bxslider {
-	padding: 2px;
-	margin:5px;
-}
 
 /*-------------------------------CLICK FUNCTION PICS-------------------------------*/
 
 
-
 /* ----------------------------- FONT_AWESOME ICONS ------------------------------------ */
+
 
 .button {
 	width: 2%;
@@ -118,16 +95,15 @@ footer {
 a:hover {
 	color: #9CCF99;
 }
+ 
+/*---------------------------------------- Navigation Bar -------------------------------------------*/
 
-
-/*----------------------------------- Navigation Bar ----------------------------------*/
 .header {
 	color: #FF9999;
 	font-size: 30px;
 	float: right;
 	margin-top: -12%;
 	margin-right: 8%;
-	border-bottom: solid #FF9999 4px;
 }
 
 a.header {
@@ -160,6 +136,7 @@ a.Home {
 	float: right;
 	margin-top: -12%;
 	margin-right: 21%;
+	border-bottom: solid #FF9999 4px;
 }
 
 .Home {
@@ -170,4 +147,48 @@ a.Home {
 	margin-right: 27%;
 }
 
-/*-------------------------------------------- page 2 ------------------------------------*/
+/*-------------------------------------- About Me Page ------------------------------------------*/
+
+img.Betsy {
+	width: 81%;
+	height: 13em;
+	margin-left: 6%;
+	border:15px solid black;
+}
+
+.paragraph-about {
+	font-size: 40px;
+	color: #9CCF99;
+	margin-right: 3%;
+}
+
+.paragraph-more {
+	font-size: 32px;
+	border-top: dotted #9CCF99 2px;
+	padding: 4px;
+	margin-right: 3%;
+}
+
+.paragraph-feel-happy {
+	font-size: 32px;
+	border-bottom: dotted #9CCF99 2px;
+	padding: 4px;
+	margin-right: 3%;
+}
+
+.paragraph-who-is {
+	font-size: 40px;
+	color: #9CCF99;
+	margin-right: 3%;
+}
+
+.paragraph-me {
+	font-size: 40px;
+	color: #9CCF99;
+	margin-right: 3%;
+}
+
+.bxslider {
+	padding: 2px;
+	margin:5px;
+}

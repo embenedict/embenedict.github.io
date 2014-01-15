@@ -22,9 +22,9 @@ h1 {
 }
 
 h2 {
-	font-size: 65px;
+	font-size: 40px;
 	color: #9CCF99;
-	text-align: center;
+	
 }
 
 footer {
@@ -179,7 +179,7 @@ a.favSites {
 	text-decoration: none;
 }
 
-a.aboutMe {
+a.about {
 	text-decoration: none;
 }
 
@@ -193,9 +193,10 @@ a.Home {
 	float: right;
 	margin-top: -12%;
 	margin-right: 13%;
+	border-bottom: solid #FF9999 4px;
 }
 
-.aboutMe {
+.about {
 	color: #FF9999;
 	font-size: 30px;
 	float: right;
@@ -208,5 +209,52 @@ a.Home {
 	font-size: 30px;
 	float: right;
 	margin-top: -12%;
-	margin-right: 29%;
+	margin-right: 27%;
+}
+
+/*----------------------------------------------- FAV SITES ----------------------------------------------------*/
+
+#yourSite {
+	height: 30px;
+	width: 600px;
+	font-size: 25px;
+	font-family: 'Amatic SC', sans-serif;
+}
+
+#addMySite {
+	background-color: #FF9999;
+}
+
+#siteAdded {
+	background-color: black;
+	border: none;
+	height: 35px;
+	width: 100%;
+	font-size: 30px;
+	font-family: 'Amatic SC', sans-serif;
+	color: #FF9999;
+}
+
+#thanks {
+	background-color: black;
+	border: none;
+	height: 60px;
+	width: 100%;
+	font-family: 'Amatic SC', sans-serif;
+	font-size: 40px;
+	color: #9CCF99;
+	font-weight: italic;
+	transition: ease-in-out;
+	-webkit-animation: fadeIn 8s;
+}
+
+.transbox2 {
+	width: 94%;
+	height: 90%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: rgba(0, 0, 0, 1);
+	border: solid #9CCF99 1px;
 }

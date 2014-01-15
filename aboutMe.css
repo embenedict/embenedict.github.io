@@ -48,42 +48,6 @@ a:hover {
 	background: rgba(0, 0, 0, 0.5);
 }
 
-.paragraph-about {
-	font-size: 40px;
-	color: #9CCF99;
-	margin-right: 3%;
-}
-
-.paragraph-more {
-	font-size: 32px;
-	border-top: dotted #9CCF99 2px;
-	padding: 4px;
-	margin-right: 3%;
-}
-
-.paragraph-feel-happy {
-	font-size: 32px;
-	border-bottom: dotted #9CCF99 2px;
-	padding: 4px;
-	margin-right: 3%;
-}
-
-.paragraph-who-is {
-	font-size: 40px;
-	color: #9CCF99;
-	margin-right: 3%;
-}
-
-.paragraph-me {
-	font-size: 40px;
-	color: #9CCF99;
-	margin-right: 3%;
-}
-
-.bxslider {
-	padding: 2px;
-	margin:5px;
-}
 
 /*-------------------------------CLICK FUNCTION PICS-------------------------------*/
 
@@ -172,6 +136,7 @@ a.Home {
 	float: right;
 	margin-top: -12%;
 	margin-right: 21%;
+	border-bottom: solid #FF9999 4px;
 }
 
 .Home {
@@ -182,3 +147,47 @@ a.Home {
 	margin-right: 29%;
 }
 
+/*-------------------------------------- About Me Page ------------------------------------------*/
+
+img.Betsy {
+	width: 95%;
+	height: 13em;
+	border:15px solid black;
+}
+
+.paragraph-about {
+	font-size: 40px;
+	color: #9CCF99;
+	margin-right: 3%;
+}
+
+.paragraph-more {
+	font-size: 32px;
+	border-top: dotted #9CCF99 2px;
+	padding: 4px;
+	margin-right: 3%;
+}
+
+.paragraph-feel-happy {
+	font-size: 32px;
+	border-bottom: dotted #9CCF99 2px;
+	padding: 4px;
+	margin-right: 3%;
+}
+
+.paragraph-who-is {
+	font-size: 40px;
+	color: #9CCF99;
+	margin-right: 3%;
+}
+
+.paragraph-me {
+	font-size: 40px;
+	color: #9CCF99;
+	margin-right: 3%;
+}
+
+.bxslider {
+	padding: 2px;
+	margin:5px;
+}

@@ -84,7 +84,7 @@ a:hover {
 
 img.nate {
 	z-index: 1;
-	height: 14em;
+	height: 13em;
 	width: 95%;
 	border: 15px solid black;
 	background-image:url('pics/nate.jpg');
@@ -199,7 +199,7 @@ a.favSites {
 	text-decoration: none;
 }
 
-a.aboutMe {
+a.about {
 	text-decoration: none;
 }
 
@@ -219,7 +219,7 @@ a.facebook-login {
 	margin-right: 13%;
 }
 
-.aboutMe {
+.about {
 	color: #FF9999;
 	font-size: 30px;
 	float: right;
@@ -232,7 +232,8 @@ a.facebook-login {
 	font-size: 30px;
 	float: right;
 	margin-top: -12%;
-	margin-right: 29%;
+	margin-right: 27%;
+	border-bottom: solid #FF9999 4px;
 }
 
 #facebook-click {
@@ -240,7 +241,7 @@ a.facebook-login {
 	font-size: 30px;
 	float: right;
 	margin-top: -11.7%;
-	margin-right: 35%;
+	margin-right: 33%;
 }
 
 #facebook-click:hover {
