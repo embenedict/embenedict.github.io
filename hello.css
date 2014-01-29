@@ -23,7 +23,7 @@ h1 {
 
 h2 {
 	font-size: 65px;
-	color: #9CCF99;
+	color: gray;
 	text-align: center;
 }
 
@@ -34,6 +34,16 @@ footer {
 
 a:hover {
 	color: #9CCF99;
+}
+
+a#blog:hover {
+	color: #9CCF99;
+}
+
+.about-pics {
+	font-size: 50px;
+	color: #FF9999;
+	border-top: dotted #FF9999 2px;
 }
 
 /*-----------------------------------OPAQUE BOX------------------------------------*/

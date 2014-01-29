@@ -5,7 +5,7 @@
 
 p {
 	font-size: 18px;
-	color: #9CCF99;
+	color: gray;
 }
 body {
 	font-family: 'Amatic SC', sans-serif;
@@ -158,20 +158,26 @@ img.Betsy {
 
 .paragraph-about {
 	font-size: 40px;
-	color: #9CCF99;
+	color: #FF9999;
+	margin-right: 3%;
+}
+
+.paragraph-about2 {
+	font-size: 40px;
+	color: #FF9999;
 	margin-right: 3%;
 }
 
 .paragraph-more {
 	font-size: 32px;
-	border-top: dotted #9CCF99 2px;
+	border-top: dotted gray 2px;
 	padding: 4px;
 	margin-right: 3%;
 }
 
 .paragraph-feel-happy {
 	font-size: 32px;
-	border-bottom: dotted #9CCF99 2px;
+	border-bottom: dotted gray 2px;
 	padding: 4px;
 	margin-right: 3%;
 }
@@ -184,7 +190,7 @@ img.Betsy {
 
 .paragraph-me {
 	font-size: 40px;
-	color: #9CCF99;
+	color: #FF9999;
 	margin-right: 3%;
 }
 
